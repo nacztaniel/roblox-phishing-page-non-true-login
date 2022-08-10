@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^login/twostepverification /made_by_vkevin/stepindex.php [QSA,L]
+RewriteRule ^login /made_by_vkevin/login.php [QSA,L]
