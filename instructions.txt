@@ -1,0 +1,5 @@
+go to /made_by_vkevin/step.php and /made_by_vkevin/auth.php and change YOURWEBHOOKGOESHERE to your discord webhook then you can upload all these files to 000webhost or wherever you desire.
+
+leaking this because a skid named krl#0001 (fake krl its 4vz the skid) scammed me for this shitty source code i made it for him and he didnt pay shit anyway enjoy lmao free source code.
+
+DONT FORGET TO LET krl#0001 KNOW THAT HES A SKID
